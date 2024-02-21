@@ -1,0 +1,142 @@
+/* Estilo General del Cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.foto {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Cabecera */
+h1, h2 {
+    color: #222;
+    text-align: center;
+}
+
+/* Estilo de la descripción */
+.description {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: justify;
+}
+
+/* Estilo de los vídeos */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* Estilo del Formulario */
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo de las Redes Sociales */
+.tabla-redes-sociales img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* Estilo de los Enlaces */
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para Listas */
+.Hobbies {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px; /* Ajusta este valor según prefieras */
+    text-align: center; /* Centra el título de la sección */
+    padding: 20px;
+    background-color: #f8f8f8; /* Un ligero fondo para destacar la sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Una sombra suave para resaltar */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+ul {
+    list-style-type: none; /* Quita los estilos de lista */
+    padding: 0;
+    margin: 0 auto; /* Centra la lista en la sección */
+}
+
+li {
+    padding: 8px;
+    margin: 10px 0; /* Aumenta el margen para más espacio entre ítems */
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center; /* Alinea el texto de los ítems en el centro */
+    width: 80%; /* Ajusta la anchura de los ítems de la lista */
+    margin-left: auto; /* Centra los ítems de la lista */
+    margin-right: auto; /* Centra los ítems de la lista */
+}
+
+.redes-sociales {
+    text-align: center; /* Centra el texto y el contenido inline dentro del div */
+    margin: 20px 0; /* Añade un margen superior e inferior para separar de otros contenidos */
+}
+
+.redes-sociales h2 {
+    margin-bottom: 20px; /* Añade un espacio entre el título y la tabla */
+}
+
+table {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse; /* Opcional: Para estilos de tabla */
+}
+
+table, td {
+    border: none; /* Opcional: Quita los bordes de la tabla y celdas si no los deseas */
+}
+
+.tabla-redes-sociales img {
+    width: 100px;
+    height: 100px;
+    display: block; /* Hace que los enlaces se comporten como bloques para centrar las imágenes */
+    margin: auto; /* Centra las imágenes dentro de sus enlaces */
+}
